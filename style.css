@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    padding: 20px 20px;
+}
+.line1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 2rem;
+    
+}
+.middle{
+    text-align: center;
+
+}
+.box{
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+    text-align: center;
+    width: 136px;
+}
+p{
+    font-size: 20px;
+}
+#num{
+    font-size: 30px;
+    font-weight: 500;
+}
+#middle{
+    font-size: 45px;
+    font-weight: 600;
+}
